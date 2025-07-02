@@ -20,7 +20,7 @@ public class TempretureConvertor {
         Scanner Sac = new Scanner(System.in);
         System.out.println("enter the temperature in celsius or fahrenheit:");
         double unit = Sac.nextDouble();
-
+       
         System.out.println("Celsius to Fahrenheit: " + celsiusToFhrenheit(unit));
         System.out.println("Fahrenheit to Celsius: " + FahrenheitTOCelcuis(unit));
 
